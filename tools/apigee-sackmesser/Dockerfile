@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM maven:3.6-alpine
+FROM maven:3.8-ibmjava-8-alpine
 
 RUN apk add --no-cache \
   git \
