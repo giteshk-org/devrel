@@ -22,7 +22,7 @@ RUN apk add --no-cache \
   npm \
   unzip
 
-RUN npm install --global apigeelint@2.10.0
+RUN npm install --global apigeelint@2.21.2
 
 COPY tools/apigee-sackmesser /opt/devrel/tools/apigee-sackmesser
 COPY references/kvm-admin-api /opt/devrel/references/kvm-admin-api
